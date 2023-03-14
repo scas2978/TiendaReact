@@ -1,5 +1,5 @@
 import React,{ Component} from 'react';
-import './Expertos.css';
+import './expertos.css';
 
 class Expertos extends Component {
   render() {
