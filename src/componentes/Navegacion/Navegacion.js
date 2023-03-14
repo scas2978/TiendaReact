@@ -1,11 +1,13 @@
 import React,{ Component} from 'react';
 import './Navegacion.css';
+import imagen from './hamburguesa.svg';
 
 class Navegacion extends Component {
   render() {
     return (
       <header class="header" id="inicio">
-        <img src="url(/hamburguesa.svg" alt="" class="hamburguer" ></img>
+        <img src={imagen} class="hamburguer" />
+       
           <nav class="menu-navegacion">
           <a href="#inicio">inicio</a>
           <a href="#servicio">servicio</a>
