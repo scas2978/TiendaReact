@@ -26,3 +26,11 @@
 
     width: 30%;
 }
+
+.n-expert {
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 400;
+
+}
