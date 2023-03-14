@@ -24,6 +24,10 @@ header {
   background-position: center;
 }
 
+.spread {
+
+  transform: translate(0);
+}
 .hamburguer {
   position: fixed;
   top: 30px;
