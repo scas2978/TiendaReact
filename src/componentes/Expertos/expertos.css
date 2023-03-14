@@ -1,0 +1,36 @@
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.experts {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cont-expert {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cont-expert img {
+
+    width: 30%;
+}
+
+.n-expert {
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 400;
+
+}
