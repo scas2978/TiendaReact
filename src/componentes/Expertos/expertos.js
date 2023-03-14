@@ -1,5 +1,6 @@
 import React,{ Component} from 'react';
 import './expertos.css';
+import Analisis from './Analisis.svg';
 
 class Expertos extends Component {
   render() {
@@ -8,7 +9,7 @@ class Expertos extends Component {
             <h2 class="subtitulo">Expertos en:</h2>
                 <section class="experts">
                     <div class="cont-expert">
-                    <img src="./Analisis.svg" alt=""/>
+                    <img src={Analisis}  alt=""/>
                     <h3 class="n-expert">Analítica</h3>
                     </div>
                     <div class="cont-expert">
