@@ -4,6 +4,7 @@ import Servicios from "./componentes/Servicios/servicios";
 import Portafolio from "./componentes/Portafolio/portafolio";
 import Expertos from "./componentes/Expertos/expertos";
 import Footer from "./componentes/Footer/footer";
+import showAlertOnUnload from "./componentes/showAlertOnUnload";
 
 
 
@@ -15,6 +16,7 @@ function App() {
        <Portafolio></Portafolio>
        <Expertos></Expertos>
        <Footer></Footer>
+       <showAlertOnUnload></showAlertOnUnload>
        </div>
    
        
