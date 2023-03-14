@@ -1,6 +1,8 @@
 import React,{ Component} from 'react';
 import './expertos.css';
 import Analisis from './Analisis.svg';
+import SEO from './SEO.svg';
+import Seguridad from './Seguridad.svg';
 
 class Expertos extends Component {
   render() {
@@ -13,11 +15,11 @@ class Expertos extends Component {
                     <h3 class="n-expert">Analítica</h3>
                     </div>
                     <div class="cont-expert">
-                    <img src="./SEO.svg" alt=""/>
+                    <img src={SEO} alt=""/>
                     <h3 class="n-expert">SEO</h3>
                     </div>
                     <div class="cont-expert">
-                    <img src="./Seguridad.svg" alt=""/>
+                    <img src={Seguridad}  alt=""/>
                     <h3 class="n-expert">Seguridad</h3>
                     </div>
                 </section>
