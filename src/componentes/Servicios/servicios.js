@@ -1,6 +1,6 @@
 import React,{ Component} from 'react';
 import './servicios.css';
-
+      import  imagen from "./Designer _Flatline.svg";
 class servicios extends Component {
   render() {
     return (
@@ -8,7 +8,7 @@ class servicios extends Component {
         <h2 class="subtitulo">Nuestro servicios </h2>
         <div class="checklist-servicios">
             <div class="contenedor-servicio servicio">
-                <img src="./Designer _Flatline.svg"  width="100%" alt=""/>
+                <img src= {imagen} width="100%" alt="./Designer _Flatline.svg"/>
             </div>
             <div class="servicio">
             <div class="service">
