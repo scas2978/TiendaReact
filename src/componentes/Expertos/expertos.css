@@ -12,6 +12,17 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+}
 
+.cont-expert {
 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cont-expert img {
+
+    width: 30%;
 }
