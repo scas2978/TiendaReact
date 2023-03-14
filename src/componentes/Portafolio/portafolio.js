@@ -2,6 +2,10 @@ import React,{ Component} from 'react';
 import './portafolio.css';
 import  imagen from "./Teclado.avif";
 import  imagen2 from "./Ram.avif";
+import  imagen3 from "./Pc.avif";
+import  imagen4 from "./Celular.avif";
+import  imagen5 from "./Xbox.avif";
+import  imagen6 from "./img6.jpg";
 class portafolio extends Component {
   render() {
     return (
@@ -14,10 +18,15 @@ class portafolio extends Component {
                           
                 <img src= {imagen2} width="100%" alt="./Ram.avif"/>
              
-                <img src="./Pc.avif" alt="" class="img-galeria"/>
-                <img src="./Celular.avif" alt="" class="img-galeria"/>
-                <img src="./Xbox.avif" alt="" class="img-galeria"/>
-                <img src="./img6.jpg" alt="" class="img-galeria"/>
+                <img src= {imagen3} width="100%" alt="./Pc.avif"/>
+             
+                <img src= {imagen4} width="100%" alt="./Celular.avif"/>
+             
+                <img src= {imagen5} width="100%" alt="./Xbox.avif"/>
+
+                <img src= {imagen6} width="100%" alt="./img6.jpg"/>
+             
+       
             </div>
         </div>
     </section>
