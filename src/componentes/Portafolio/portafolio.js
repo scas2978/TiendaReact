@@ -14,17 +14,17 @@ class portafolio extends Component {
             <h2 class="subtitulo">Galeria</h2>
             <div class="contenedor-galeria">
                 
-                <img src= {imagen} width="100%" alt="./Teclado.avif"/>
+                <img src= {imagen} width="100%" alt="./Teclado.avif" class="img-galeria"/>
                           
-                <img src= {imagen2} width="100%" alt="./Ram.avif"/>
+                <img src= {imagen2} width="100%" alt="./Ram.avif" class="img-galeria"/>
              
-                <img src= {imagen3} width="100%" alt="./Pc.avif"/>
+                <img src= {imagen3} width="100%" alt="./Pc.avif" class="img-galeria"/>
              
-                <img src= {imagen4} width="100%" alt="./Celular.avif"/>
+                <img src= {imagen4} width="100%" alt="./Celular.avif" class="img-galeria"/>
              
-                <img src= {imagen5} width="100%" alt="./Xbox.avif"/>
+                <img src= {imagen5} width="100%" alt="./Xbox.avif" class="img-galeria"/>
 
-                <img src= {imagen6} width="100%" alt="./img6.jpg"/>
+                <img src= {imagen6} width="100%" alt="./img6.jpg" class="img-galeria"/>
              
        
             </div>
