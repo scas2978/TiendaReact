@@ -4,7 +4,7 @@ import Navegacion from "./componentes/Navegacion/Navegacion";
 function App() {
   return (
     <div className="App">
-       <Navegacion></Navegacion>
+      <Navegacion></Navegacion>
     </div>
   );
 }
