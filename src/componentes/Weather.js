@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './Navegacion/Navegacion.css';
+import './Weather.css';
 
 const Weather = () => {
   const [city, setCity] = useState('');
@@ -18,10 +18,9 @@ const Weather = () => {
   }, []);
 
   return (
-    <div className='Clima'>
+    <div className="Clima">
       <h2> La Ciudad de {city} </h2>
       <p>Actualmente se encuentra a {temp} Kelvin Temperatura</p>
-  
     </div>
   );
 };
