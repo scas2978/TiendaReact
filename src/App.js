@@ -17,9 +17,11 @@ function App() {
        <Servicios></Servicios>
        <Portafolio></Portafolio>
        <Expertos></Expertos>
+       <Weather />
+
        <Footer></Footer>
        <showAlertOnUnload></showAlertOnUnload>
-       <Weather />
+       
        
        </div>
    
