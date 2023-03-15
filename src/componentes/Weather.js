@@ -18,7 +18,7 @@ const Weather = () => {
   }, []);
 
   return (
-    <div>
+    <div className='Clima'>
       <h2> La Ciudad de {city} </h2>
       <p>Actualmente se encuentra a {temp} Kelvin Temperatura</p>
   
