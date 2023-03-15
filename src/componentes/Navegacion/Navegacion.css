@@ -5,6 +5,11 @@
 }
 
 
+.menu-navegacion.activo {
+  display: block;
+  background-color: red;
+}
+
 .head {
   padding: 0;
   height: 100%;
@@ -24,10 +29,6 @@ header {
   background-position: center;
 }
 
-.spread {
-
-  transform: translate(0);
-}
 .hamburguer {
   position: fixed;
   top: 30px;
@@ -42,6 +43,7 @@ header {
 
 
 .menu-navegacion {
+  display: none;
   position: fixed;
   top: 0;
   right: 0;

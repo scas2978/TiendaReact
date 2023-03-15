@@ -5,6 +5,8 @@ import Portafolio from "./componentes/Portafolio/portafolio";
 import Expertos from "./componentes/Expertos/expertos";
 import Footer from "./componentes/Footer/footer";
 import showAlertOnUnload from "./componentes/showAlertOnUnload";
+import Weather from './componentes/Weather';
+
 
 
 
@@ -17,6 +19,8 @@ function App() {
        <Expertos></Expertos>
        <Footer></Footer>
        <showAlertOnUnload></showAlertOnUnload>
+       <Weather />
+       
        </div>
    
        
@@ -26,3 +30,10 @@ function App() {
 
 
 export default App;
+
+
+
+
+
+
+
